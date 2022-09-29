@@ -30,7 +30,7 @@ const ProfileForm = () => {
       }
     }).then(res => {
       // Assumption it always work
-      alert("Password Chaned successfully redirecting...");
+      alert("Password Changed successfully redirecting...");
       history.replace("/");
     });
   };
